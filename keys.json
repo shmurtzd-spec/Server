@@ -1,5 +1,5 @@
 {
-  "abc123": "script1.lua",
-  "user42key": "script2.lua",
+  "abc123": "main.lua",
+  "user42key": "main.lua",
   "sharedKey": "main.lua"
 }
