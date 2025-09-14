@@ -44,7 +44,7 @@ app.get("/", (req, res) => {
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Bait Script</title>
+        <title>Dabitobs Host</title>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.30.0/themes/prism-tomorrow.min.css" rel="stylesheet"/>
     </head>
     <body style="background:#2d2d2d;color:#ccc;padding:20px;font-family:monospace;">
