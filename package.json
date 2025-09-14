@@ -1,0 +1,13 @@
+{
+  "name": "SERVER",
+  "version": "1.0.0",
+  "description": "Script Host",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
