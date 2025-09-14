@@ -17,7 +17,7 @@ app.post("/getscript", (req, res) => {
   const { key } = req.body;
 
   if (key && keys[key]) {
-    const filePath = path.join("scripts", keys[key]);
+    const filePath = path.join(".", keys[key]); // look in root folder
 
     if (fs.existsSync(filePath)) {
       const script = fs.readFileSync(filePath, "utf-8");
