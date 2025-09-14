@@ -1,0 +1,1 @@
+print("This is the shared Roblox script everyone runs.")
